@@ -15,9 +15,9 @@ public class Login extends Base{
 		String username="admin";
 		String password="admin";
 		driver.navigate().to("https://groceryapp.uniqassosiates.com/admin/login");
-		WebElement uname=driver.findElement(By.cssSelector("input[placeholder='Username']"));
+		WebElement uname=driver.findElement(By.cssSelector("//input[placeholder='Username']"));
 		uname.sendKeys(username);
-		WebElement pswd=driver.findElement(By.cssSelector("input[placeholder='Password']"));
+		WebElement pswd=driver.findElement(By.cssSelector("//input[placeholder='Password']"));
 		pswd.sendKeys(password);
 		WebElement signin=driver.findElement(By.xpath("//button[@type='submit']"));
 		signin.click();

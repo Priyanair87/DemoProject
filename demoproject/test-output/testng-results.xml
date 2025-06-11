@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-08T10:28:35 IST" name="Default suite" finished-at="2025-06-08T10:28:43 IST" duration-ms="8069">
+  <suite started-at="2025-06-11T07:48:27 IST" name="Default suite" finished-at="2025-06-11T07:48:36 IST" duration-ms="9547">
     <groups>
     </groups>
-    <test started-at="2025-06-08T10:28:35 IST" name="Default test" finished-at="2025-06-08T10:28:43 IST" duration-ms="8069">
-      <class name="testscript.Login">
-        <test-method is-config="true" signature="browserInitialisation()[pri:0, instance:testscript.Login@5b7a5baa]" started-at="2025-06-08T10:28:35 IST" name="browserInitialisation" finished-at="2025-06-08T10:28:41 IST" duration-ms="6539" status="PASS">
+    <test started-at="2025-06-11T07:48:27 IST" name="Default test" finished-at="2025-06-11T07:48:36 IST" duration-ms="9547">
+      <class name="testscript.ManageNewsTest">
+        <test-method is-config="true" signature="browserInitialisation()[pri:0, instance:testscript.ManageNewsTest@40a4337a]" started-at="2025-06-11T07:48:27 IST" name="browserInitialisation" finished-at="2025-06-11T07:48:32 IST" duration-ms="4765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialisation -->
-        <test-method signature="invalidUserName()[pri:0, instance:testscript.Login@5b7a5baa]" started-at="2025-06-08T10:28:41 IST" name="invalidUserName" finished-at="2025-06-08T10:28:43 IST" duration-ms="1431" status="PASS">
+        <test-method signature="verifyTheUserIsAbleToEnterTheNews()[pri:0, instance:testscript.ManageNewsTest@40a4337a]" started-at="2025-06-11T07:48:32 IST" name="verifyTheUserIsAbleToEnterTheNews" finished-at="2025-06-11T07:48:36 IST" duration-ms="4712" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidUserName -->
-      </class> <!-- testscript.Login -->
+        </test-method> <!-- verifyTheUserIsAbleToEnterTheNews -->
+      </class> <!-- testscript.ManageNewsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
