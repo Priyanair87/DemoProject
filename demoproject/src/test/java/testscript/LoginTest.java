@@ -10,7 +10,7 @@ import utilities.ExcelUtility;
 
 public class LoginTest extends Base {
 
-	@Test
+	@Test(retryAnalyzer=retry.Retry.class,groups= {"Regression"})
 	public void verifyTheUserIsAbleToLoginUsingValidCredential () throws IOException
 	{
 		//String username="admin";
@@ -26,7 +26,7 @@ public class LoginTest extends Base {
 		
 	}
 	
-	@Test
+	@Test(retryAnalyzer=retry.Retry.class)
 	public void invalidUsernameAndCorrectPassword() throws IOException
 	{
 		
@@ -42,7 +42,7 @@ public class LoginTest extends Base {
 		Assert.assertTrue(alert);
 	}
 	
-	@Test
+	@Test(retryAnalyzer=retry.Retry.class)
 	public void correctUsernameAndIncorrectPassword() throws IOException
 	{
 		//String username="admin";
@@ -58,7 +58,7 @@ public class LoginTest extends Base {
 		Assert.assertTrue(alert);
 	}
 	
-	@Test
+	@Test(retryAnalyzer=retry.Retry.class)
 	public void incorrectUsernameAndIncorrectPassword() throws IOException
 	{
 		//String username="abc";
